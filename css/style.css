@@ -1,0 +1,27 @@
+.digital__clock{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #141E30;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.digital__clock .time{
+    font-size: 78px;
+}
+
+.hours{
+    border-radius: 20px;
+    background-color: green;
+}
+.today__Date{
+    display: flex;
+    gap: 40px;
+    background-color: #393E46;
+    padding: 5px 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
